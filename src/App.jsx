@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col text-center items-center justify-center min-h-screen bg-[url('/banner-back.jpg')] bg-cover bg-center">
+      <div className="flex flex-col text-center items-center justify-center min-h-screen bg-[url('./banner-back.jpg')] bg-cover bg-center">
         <Form />
       </div>
     </>

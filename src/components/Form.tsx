@@ -4,13 +4,13 @@ export default function Form() {
       <div className="bg-[#9fc24e] bg-center rounded-tl-lg rounded-tr-lg justify-center ">
         <a href="https://elmejorlugar.com/">
           <img
-            src="/logo-white.png"
+            src="./logo-white.png"
             alt="Logo de la empresa"
             className="w-auto h-auto rounded-t-lg pl-4 pr-4"
           />
         </a>
       </div>
-      <form className="mt-8 bg-gray-200 p-5 rounded-b-lg shadow-md w-auto space-y-9">
+      <form className="mt-8 bg-white p-5 rounded-b-lg shadow-md w-auto space-y-9">
         <h1 className="text-4xl text-center pt-3 pb-3 text-gray-500 font-bold">
           Iniciar Sesión
         </h1>
