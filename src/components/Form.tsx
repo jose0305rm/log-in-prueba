@@ -1,12 +1,12 @@
 export default function Form() {
   return (
     <div className="space-y-0 h-auto">
-      <div className="bg-[#9fc24e] bg-center h-64 rounded-tl-lg rounded-tr-lg justify-center ">
+      <div className="bg-[#9fc24e] bg-center rounded-tl-lg rounded-tr-lg justify-center ">
         <a href="https://elmejorlugar.com/">
           <img
             src="/logo-white.png"
             alt="Logo de la empresa"
-            className="w-auto h-auto rounded-t-lg p-7"
+            className="w-auto h-auto rounded-t-lg pl-4 pr-4"
           />
         </a>
       </div>
