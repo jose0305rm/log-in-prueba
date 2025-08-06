@@ -52,13 +52,13 @@ export default function Form() {
 
         <div className="flex justify-around">
           <a
-            className="text-[#85a141] hover:text-[#bee45d] mb-3"
+            className="text-[#9fc24e] hover:text-[#6a8133] mb-3"
             href="https://elmejorlugar.com/?action=client"
           >
             Registrarme
           </a>
           <a
-            className="text-[#85a141] hover:text-[#bee45d] mb-3"
+            className="text-[#9fc24e] hover:text-[#6a8133] mb-3"
             href="https://elmejorlugar.com/?action=reset"
           >
             Olvide contraseña

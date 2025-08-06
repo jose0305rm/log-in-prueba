@@ -8,9 +8,16 @@ function App() {
     <>
       <div className="flex flex-col text-center items-center justify-center min-h-screen bg-[url('/banner-back.jpg')] bg-cover bg-center">
         <Form />
-        <p className="text-white">
-          Powered by ClickApp. © 2025 Dynamic Advance S.A.
+        <p>
+
+          <a href="https://deleclick.com/" className="text-white">
+          Powered by ClickApp.
+        </a>
+        <a href="https://dynamicadvance.com/" className="text-white">
+          © 2025 Dynamic Advance S.A.
+        </a>
         </p>
+        
       </div>
     </>
   );
