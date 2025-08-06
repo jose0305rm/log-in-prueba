@@ -1,21 +1,27 @@
 export default function Form() {
   return (
-    <div className="space-y-0 h-auto">
-      <div className="bg-[#9fc24e] bg-center rounded-tl-lg rounded-tr-lg justify-center ">
-        <a href="https://elmejorlugar.com/">
+    <div className="flex flex-col space-y-0 h-auto md:flex-row mt-10 mb-3 ml-3 mr-3">
+      <div
+        className="bg-[#9fc24e] bg-center flex justify-center items-center 
+        rounded-t-lg md:rounded-none md:rounded-tl-lg md:rounded-bl-lg"
+      >
+        <a
+          href="https://elmejorlugar.com/"
+          className="flex justify-center items-center"
+        >
           <img
             src="./logo-white.png"
             alt="Logo de la empresa"
-            className="w-auto h-auto rounded-t-lg pl-4 pr-4"
+            className="w-4/5 md:w-96 h-auto md:pr-4 pl-4"
           />
         </a>
       </div>
-      <form className="mt-8 bg-white p-5 rounded-b-lg shadow-md w-auto space-y-9">
+      <form className="mt-8 bg-white p-20 rounded-b-lg md:rounded-none md:rounded-tr-lg md:rounded-br-lg shadow-md w-auto space-y-9">
         <h1 className="text-4xl text-center pt-3 pb-3 text-gray-500 font-bold">
           Iniciar Sesión
         </h1>
         <div className="flex flex-row mt-10">
-          <i className="bi bi-envelope flex justify-center items-center pl-3 pr-3 text-2xl text-gray-500 bg-gray-300 border border-gray-200 rounded-tl-lg rounded-bl-lg"></i>
+          <i className="bi bi-envelope flex justify-center items-center pl-3 pr-3 text-2xl text-gray-500 bg-gray-200 border border-gray-200 rounded-tl-lg rounded-bl-lg"></i>
           <input
             type="text"
             id="mail"
@@ -27,9 +33,9 @@ export default function Form() {
 
         <div className="flex flex-col mt-10">
           <div className="flex flex-row mt-2">
-            <i className="bi bi-lock flex justify-center items-center pl-3 pr-3 text-2xl text-gray-500 bg-gray-300 border border-gray-200 rounded-tl-lg rounded-bl-lg"></i>
+            <i className="bi bi-lock flex justify-center items-center pl-3 pr-3 text-2xl text-gray-500 bg-gray-200 border border-gray-200 rounded-tl-lg rounded-bl-lg"></i>
             <input
-              type="text"
+              type="password"
               id="pass"
               autoComplete="off"
               placeholder="Contraseña"
@@ -40,7 +46,7 @@ export default function Form() {
 
         <input
           type="submit"
-          className="text-white font-bold bg-[#9fc24e] px-4 py-4 rounded w-full mt-10"
+          className="text-white font-bold bg-[#9fc24e] hover:bg-[#6a8133] px-4 py-4 rounded w-full mt-10 cursor-pointer"
           value="Iniciar Sesión"
         />
 
@@ -59,9 +65,6 @@ export default function Form() {
           </a>
         </div>
       </form>
-      <p className="text-white">
-        Powered by ClickApp. © 2025 Dynamic Advance S.A.
-      </p>
     </div>
   );
 }
