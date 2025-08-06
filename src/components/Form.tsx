@@ -16,18 +16,18 @@ export default function Form() {
           />
         </a>
       </div>
-      <form className="mt-8 bg-white p-20 rounded-b-lg md:rounded-none md:rounded-tr-lg md:rounded-br-lg shadow-md w-auto space-y-9">
+      <form className="mt-8 bg-white p-11 rounded-b-lg md:rounded-none md:rounded-tr-lg md:rounded-br-lg shadow-md w-auto space-y-9">
         <h1 className="text-4xl text-center pt-3 pb-3 text-gray-500 font-bold">
           Iniciar Sesión
         </h1>
-        <div className="flex flex-row mt-10">
+        <div className="flex flex-row mt-10 w-auto">
           <i className="bi bi-envelope flex justify-center items-center pl-3 pr-3 text-2xl text-gray-500 bg-gray-200 border border-gray-200 rounded-tl-lg rounded-bl-lg"></i>
           <input
             type="text"
             id="mail"
             autoComplete="off"
             placeholder="Correo Electrónico"
-            className="w-full h-10 border border-gray-200 rounded-tr-lg rounded-br-lg pl-2 pt-6 pb-6"
+            className="w-full md:w-64 h-10 border border-gray-200 rounded-tr-lg rounded-br-lg pl-2 pt-6 pb-6 "
           />
         </div>
 
@@ -39,7 +39,7 @@ export default function Form() {
               id="pass"
               autoComplete="off"
               placeholder="Contraseña"
-              className="w-full h-10 border border-gray-200 rounded-tr-lg rounded-br-lg pl-2 pt-6 pb-6"
+              className="w-full md:w-64 h-10 border border-gray-200 rounded-tr-lg rounded-br-lg pl-2 pt-6 pb-6"
             />
           </div>
         </div>
